@@ -1,0 +1,6 @@
+nom,Symbole,Unité,Incertitude
+Teslamètre,U(B),mT,0.03
+Règle,U(D),mm,0.5
+Position faisceau,U_f(D),mm,0.5
+Tension,U(U),V,0.05
+Courant,U(I),A,0.005

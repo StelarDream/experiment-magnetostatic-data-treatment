@@ -1,0 +1,28 @@
+[project]
+name = "experiment-magnetostatic"
+version = "0.1.0"
+description = "Analyse du TP Magnétostatique - Helmholtz et tube de Thomson"
+authors = [
+    {name = "Stelar ",email = "90330577+StelarDream@users.noreply.github.com"}
+]
+license = "MIT"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "numpy (>=2.4.1,<3.0.0)",
+    "scipy (>=1.17.0,<2.0.0)",
+    "pandas (>=2.3.3,<3.0.0)",
+    "matplotlib (>=3.10.8,<4.0.0)",
+    "uncertainties (>=3.2.4,<4.0.0)"
+]
+
+[tool.poetry]
+package-mode = false
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.14.11"
+pyright = "^1.1.408"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
