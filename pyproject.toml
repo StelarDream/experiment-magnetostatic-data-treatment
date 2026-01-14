@@ -5,7 +5,7 @@ description = "Analyse du TP Magnétostatique - Helmholtz et tube de Thomson"
 authors = [
     {name = "Stelar ",email = "90330577+StelarDream@users.noreply.github.com"}
 ]
-license = "MIT"
+license.file = "LICENCE"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
