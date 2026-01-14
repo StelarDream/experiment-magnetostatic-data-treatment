@@ -1,5 +1,4 @@
-Intensité,Champ magnétique,Tension
-I (A),U (V),B (mT)
+I_A,U_V,B_mT
 0.1000,1.200,0.4400
 0.2000,2.500,0.8200
 0.3000,3.800,1.220

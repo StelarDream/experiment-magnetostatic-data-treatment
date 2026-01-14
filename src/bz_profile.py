@@ -6,7 +6,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 from utils import load_csv, save_figure
-from constants import TESLAMETER_U_B_MTESLA, POSITION_U_Z_MM
+from constants import TESLAMETER_U_B_MT, POSITION_U_Z_MM
 
 
 def find_plateau_bounds(
@@ -77,7 +77,7 @@ def main() -> None:
     print(f"z_centre plateau = {z_center_mm:.1f} mm")
     print(f"B_moyen = {B_mean_mT:.3f} mT")
     print(f"σ(B)    = {B_std_mT:.3f} mT")
-    print(f"U(B)    = {TESLAMETER_U_B_MTESLA:.3f} mT")
+    print(f"U(B)    = {TESLAMETER_U_B_MT:.3f} mT")
     print(f"U(z)    = {POSITION_U_Z_MM:.2f} mm")
 
     # 4) Plot
@@ -87,7 +87,7 @@ def main() -> None:
     ax.errorbar(
         df_sorted["z_mm"],
         df_sorted["B_mT"],
-        yerr=TESLAMETER_U_B_MTESLA,
+        yerr=TESLAMETER_U_B_MT,
         fmt="o",
         markersize=3,
         capsize=2,
