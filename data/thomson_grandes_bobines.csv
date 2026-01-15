@@ -1,5 +1,4 @@
-Position du faisceau,   Tension d’accélération,   Intensité de la bobine,   Tension de la bobine
-D_f (cm),               U_e (V),                  I (A),                    U (V)
+Df_cm,Ue_V,I_A,Ucoil_V
 4,5000,1.80,8.1
 5,5000,1.33,5.9
 4,4000,1.65,7.4
